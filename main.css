@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: monospace; 
+}
+header
+{
+    height: 100px;
+    width: 100vw;
+    background-color: #6E85B7;
+    margin: 0 auto;
+}
+#avatar
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-left: 200px;
+}
+#tieude
+{
+    float: right;
+    margin-right: 460px;
+    margin-top: 30px;
+    font-size: 35px;
+}
+nav
+{
+    height: 50px;
+    width: 100vw;
+    background-color: #B2C8DF;
+    margin: 0 auto;
+}
+.menu
+{
+    margin-left: 130px;
+}
+nav ul
+{
+    list-style: none;
+}
+nav ul li{
+    float: left;
+    margin: 15px 100px;
+}
+nav ul li a{
+    font-size: large;
+    color: black;
+    text-decoration: none;
+}
+.gioithieu
+{
+    width: 100vw;
+    height: 100vh;
+    float: left;
+}
+.card
+{
+    float: left;
+    height: 500px;
+    width: 400px;
+    background-color: #DFD3C3;
+    margin: 10vh 5vw;
+    border-radius: 70px;
+    margin-left: 10vw;
+}
+.nut
+{
+    font-size: large;
+    background-color: #9E7676;
+    width: 250px;
+    height: 50px;
+    margin: 15px 0;
+    border-radius: 100px;
+}
+.nut a{
+    color: black;
+    text-decoration: none;
+}
