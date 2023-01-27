@@ -54,7 +54,7 @@ nav ul li a{
 .gioithieu
 {
     width: 100vw;
-    height: 100vh;
+    height: 120vh;
     float: left;
 }
 .card
@@ -179,7 +179,7 @@ center
     .gioithieu
     {
         width: 100vw;
-        height: 80vh;
+        height: 100vh;
     }
     h3
     {
