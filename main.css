@@ -99,3 +99,17 @@ center
 {
     margin-top: 3vw;
 }
+#bgvideo
+{
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    min-width: 100%; 
+    min-height: 100%;
+}
+.content {
+    position: relative;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+  }
