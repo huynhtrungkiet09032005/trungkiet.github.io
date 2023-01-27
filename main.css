@@ -7,7 +7,8 @@ header
 {
     height: 8vw;
     width: 100vw;
-    background-color: #6E85B7;
+    /* background-color: #6E85B7; */
+    background-color: rgba(110,133,183, 0.85);
     margin: 0 auto;
 }
 #avatar
@@ -28,7 +29,8 @@ nav
 {
     height: 4vw;
     width: 100vw;
-    background-color: #B2C8DF;
+    /* background-color: #B2C8DF; */
+    background-color: rgba(178,200,223,0.8);
     margin: 0 auto;
 }
 .menu
@@ -42,6 +44,7 @@ nav ul
 nav ul li{
     float: left;
     margin: 1.1vw 7vw;
+    
 }
 nav ul li a{
     font-size: 1.5vw;
@@ -59,10 +62,11 @@ nav ul li a{
     float: left;
     height: 40vw;
     width: 30vw;
-    background-color: #DFD3C3;
+    background-color: rgba(255, 255, 255, 0.7);
     margin: 10vh 5vw;
     border-radius: 5.6vw;
     margin-left: 10vw;
+    border: 0.3vw solid rgba(0, 0, 0, 0.7);
 }
 h3
 {
@@ -112,4 +116,119 @@ center
     bottom: 0;
     background: rgba(0, 0, 0, 0.5);
     width: 100%;
+  }
+  @media screen and (max-width: 500px){
+    header
+    {
+        height: 8vh;
+        width: 100vw;
+        /* background-color: #6E85B7; */
+        background-color: rgba(110,133,183, 0.85);
+        margin: 0 auto;
+    }
+     #avatar
+    {
+        width: 8vh;
+        height: 8vh;
+        border-radius: 8vw;
+        margin-left: 10vw;
+    }
+    #tieude
+    {
+        float: right;
+        margin-right: 8vw;
+        margin-top: 2.5vh;
+        font-size: 3vh;
+    }
+    .card
+    {
+        height: 35vh;
+        width: 50vw;
+        background-color: rgba(255, 255, 255, 0.7);
+        margin: 5vw 5vw;
+        border-radius: 5.6vw;
+        margin-left: 25vw;
+        border: 0.3vw solid rgba(0, 0, 0, 0.7);
+    }
+        nav
+    {
+        height: 4vh;
+        width: 100vw;
+        /* background-color: #B2C8DF; */
+        background-color: rgba(178,200,223,0.8);
+        margin: 0 auto;
+    }
+    .menu
+    {
+        margin-left: 11vw;
+    }
+    nav ul
+    {
+        list-style: none;
+    }
+    nav ul li{
+        float: left;
+        margin: 1.0vh 4vw;
+        
+    }
+    nav ul li a{
+        font-size: 1.2vh;
+        color: black;
+        text-decoration: none;
+    }
+    .gioithieu
+    {
+        width: 100vw;
+        height: 80vh;
+    }
+    h3
+    {
+        margin-top: 2vh;
+        font-size: 1.2vh;
+    }
+    h2{
+        margin-top: 2vh;
+        font-size: 1.3vh;
+    }
+    h1{
+        margin-top: 2vh;
+        font-size: 2.0vh;
+    }
+    .nut
+    {
+        font-size: 1.2vh;
+        background-color: #9E7676;
+        width: 30vw;
+        height: 3vh;
+        margin: 1.2vh 0;
+        border-radius: 8vw;
+    }
+    .nut a{
+        color: black;
+        text-decoration: none;
+    }
+    #video
+    {
+        margin-top: 3vh;
+        width: 40vw;
+        height: 15vh;
+    }
+    center
+    {
+        margin-top: 2vh;
+    }
+    #bgvideo
+    {
+        right: 0;
+        bottom: 0;
+        position: fixed;
+        min-width: 100%; 
+        min-height: 100%;
+    }
+    .content {
+        position: relative;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        width: 100%;
+    }
   }
